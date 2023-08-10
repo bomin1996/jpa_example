@@ -37,3 +37,5 @@ CONSTRAINT sample_member_pk PRIMARY KEY (name)
 5. master branch는 완성되어 있는 branch이고 empty branch는 껍데기만 있는 branch(연습용) 입니다.
 
 6. 서버 구동 후 사용방법은 src > main > resources > static > index.html 을 확인해 주시면 됩니다
+
+<a href="http://localhost:8080/swagger-ui.html?urls.primaryName=V1#/">Swagger을 이용한 테스트</a>
