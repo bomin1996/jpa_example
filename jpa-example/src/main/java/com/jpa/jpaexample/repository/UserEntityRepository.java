@@ -10,6 +10,7 @@ import java.util.List;
 
 @Repository
 public interface UserEntityRepository extends JpaRepository<UserEntity, String> {
-    @Query(value = "select User_name, User_id from User where User_name = : User_name", nativeQuery=true)
-    List<UserEntity> searchParamRepo(@Param("User_name") String User_name);
+    @Query(value = "SELECT * FROM User WHERE user_id = :user_id", nativeQuery = true)
+    List<UserEntity> searchParamRepo(@Param("user_id") String user_id);
 }
+

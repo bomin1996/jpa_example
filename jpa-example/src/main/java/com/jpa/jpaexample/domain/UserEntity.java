@@ -19,7 +19,7 @@ public class UserEntity {
     @Column(nullable = false, unique = true)
     private String user_id;
 
-    @Column(nullable = false, unique = true)
+    @Column(nullable = false)
     private String user_name;
 
     @Column(nullable = false)
