@@ -38,4 +38,4 @@ CONSTRAINT sample_member_pk PRIMARY KEY (name)
 
 6. 서버 구동 후 사용방법은 src > main > resources > static > index.html 을 확인해 주시면 됩니다
 
-<a href="http://localhost:8080/swagger-ui.html?urls.primaryName=V1#/">Swagger을 이용한 테스트</a>
+서거 구동 후 Swagger을 이용한 테스트 (http://localhost:8080/swagger-ui.html?urls.primaryName=V1#/)
